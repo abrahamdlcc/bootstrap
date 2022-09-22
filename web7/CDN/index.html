@@ -7,16 +7,50 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container border border-success border-5 rounded-4">
-      <h1> class container</h1>
-  </div>
-  <div class="container-md border border-primary border-5 rounded-4">
-      <h1> class container-md</h1>
-  </div>
-  <div class="container-fluit border border-danger border-5 rounded-4">
-      <h1> class container-fluit</h1>
-  </div>
-  
+    <!--3 columnas identicas usando col-->
+    <div class="container border border-success border-1 text-center my-5">
+      <div class="row">
+        <div class="col border border-primary">Class = col</div>
+        <div class="col border border-secondary">Class = col</div>
+        <div class="col border border-danger">Class = col</div>
+      </div>
+    </div>
+    <!--3 columnas identicas usando col-->
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-4 border border-primary">col-4</div>
+        <div class="col-4 border border-secondary">col-4</div>
+        <div class="col-4 border border-danger">col-4</div>
+      </div>
+    </div>
+    <!--2 columnas identicas y 1 desigual-->
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-2 border border-primary">col-2</div>
+        <div class="col-8 border border-secondary">col-8</div>
+        <div class="col-2 border border-danger">col-2</div>
+      </div>
+    </div>
+    <!--2 columnas identicas y 1 desigual con breakpoint-->
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-md-2 border border-primary">col-2</div>
+        <div class="col-md-8 border border-secondary">col-8</div>
+        <div class="col-md-2 border border-danger">col-2</div>
+      </div>
+    </div>
+    <!--2 columnas identicas y 1 desigual con 2 breakpoint-->
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-md-2 col-sm-4 border border-primary">col-2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Est unde quibusdam placeat beatae harum quia, perferendis itaque sed magni quisquam ea fugiat necessitatibus voluptatum, culpa accusamus fuga obcaecati a nesciunt!</div>
+        <div class="col-md-8 col-sm-8 border border-secondary">col-8 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius obcaecati labore voluptatibus suscipit ea corporis, reiciendis facere ex nesciunt maiores impedit repellendus doloremque non officia voluptatem nobis deleniti necessitatibus accusantium.
+        Ullam exercitationem, aperiam dolor molestiae est vel mollitia doloribus quibusdam blanditiis in molestias ut illum dolore. Ducimus illo dolorem laudantium sapiente optio, facere nisi sit eveniet doloremque, veniam atque eum.
+        Debitis perspiciatis rerum, repellat dolor id tempore cum corrupti quis asperiores cupiditate animi deserunt magnam vitae doloremque architecto sit recusandae rem? Quos quas porro optio dignissimos repudiandae, autem nihil veniam!</div>
+        <div class="col-md-2 col-sm-12 border border-danger">col-2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum saepe perferendis impedit nam maiores tempora deserunt consectetur dignissimos corrupti accusamus, iure, vitae ipsum nemo sunt possimus quo eius nisi molestiae?
+        Veniam reiciendis, quaerat ex atque in perferendis obcaecati ea expedita dolorum, error voluptatum dolorem repudiandae doloremque aut ducimus accusamus voluptatibus autem, non iste! Earum, excepturi. Odio nam obcaecati asperiores velit!</div>
+      </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
